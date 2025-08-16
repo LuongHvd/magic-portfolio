@@ -1,16 +1,17 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ho Viet",
+  lastName: "Duc Luong",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Junior Lecturer and Computer Science Researcher",
+  avatar: "/images/avatar.png",
+  email: "luonghvd@soict.hust.edu.vn",
+  location: "Asia/Ho_Chi_Minh", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  timezone: "Asia/Ho_Chi_Minh",     // For internal time functions
+  languages: ["English", "Vietnamese"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -28,19 +29,19 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    name: "Scholar",
+    icon: "scholar",
+    link: "https://scholar.google.com/citations?user=ljqNhTYAAAAJ&hl=en&oi=ao",
+  },
+  {
+    name: "Orcid",
+    icon: "orcid",
+    link: "https://orcid.org/0000-0001-6690-5222",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/%C4%91%E1%BB%A9c-l%C6%B0%C6%A1ng-h%E1%BB%93-vi%E1%BA%BFt-7660742b9/",
   },
   {
     name: "Email",
@@ -55,16 +56,15 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Struggling means you are learning</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <></>,
+    href: "",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm {person.name}, currently a Junior Lecturer at SoICT, HUST, focusing on AI-powered optimization.
     </>
   ),
 };
@@ -90,107 +90,83 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
-      </>
+      Ho Viet Duc Luong is a junior lecturer and a Master student in Data Science at SoICT, HUST. He received the BPA in the Thesis Defense Committee Optimization 2024 at SoICT, the Second Prize in VMO 2020, and a Gold Medal in the National Mathematical Olympiad for Students 2018. His research interests include evolutionary computation and AI applications in optimization for wireless communications and autonomous systems.
+        </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Computer Science Department, SoICT, HUST",
+        timeframe: "2025 – Present",
+        role: "Junior Lecturer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          <>A lecturer in training.</>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Computational Intelligence and Optimization Lab, SoICT, HUST",
+        timeframe: "2022 – Present",
+        role: "Research Assistant & Researcher",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Optimization algorithms theory and applications.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Modern Computer Networks and Communications Technology Lab, HUST",
+        timeframe: "2023 – Present",
+        role: "Research Assistant & Researcher",
+        achievements: [
+          <>Algorithms for resource management in beyond-5G communication systems.</>,
         ],
         images: [],
       },
     ],
-  },
+  },   
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Hanoi University of Science and Technology",
+        description: <>Master of Data Science (Elitech Program), 2024 – Present.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Hanoi University of Science and Technology",
+        description: <>Bachelor of Computer Science (Talent Program), 2020 – 2024.</>,
+      },
+      {
+        name: "Phan Boi Chau High School for the Gifted",
+        description: <>Mathematics specialized class, 2017 – 2020.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Courses I am teaching at HUST",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Applied Algorithms",
+        description: <>Introduction to algorithms and data structures, with a focus on practical applications and problem-solving techniques.</>,
+
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Object-Oriented Programming",
+        description: <>Introduction to object-oriented programming concepts, including classes, inheritance, and polymorphism.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
+      },
+      {
+        title: "Introduction to Programming",
+        description: <>Introduction to programming concepts, including variables, control structures, and basic algorithms.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
@@ -198,8 +174,8 @@ const about = {
 
 const blog = {
   path: "/blog",
-  label: "Blog",
-  title: "Writing about design and tech...",
+  label: "Books ",
+  title: "Books that I published...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -207,11 +183,9 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
+  label: "Publications",
+  title: `Publications – ${person.name}`,
+  description: `List of research papers and conference publications by ${person.name}`,
 };
 
 const gallery = {
