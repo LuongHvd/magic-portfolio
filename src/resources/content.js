@@ -6,11 +6,11 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Junior Lecturer and Computer Science Researcher",
+  role: "Computer Science Lecturer, Researcher",
   avatar: "/images/avatar.png",
   email: "luonghvd@soict.hust.edu.vn",
   location: "Asia/Ho_Chi_Minh", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  timezone: "Asia/Ho_Chi_Minh",     // For internal time functions
+  locationreal: "Hanoi, Vietnam",     // For internal time functions
   languages: ["English", "Vietnamese"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -42,6 +42,11 @@ const social = [
     name: "LinkedIn",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/%C4%91%E1%BB%A9c-l%C6%B0%C6%A1ng-h%E1%BB%93-vi%E1%BA%BFt-7660742b9/",
+  },
+  {
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://www.facebook.com/luonghvd810",
   },
   {
     name: "Email",

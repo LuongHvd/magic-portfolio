@@ -8,6 +8,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   link?: string;
+  authors?: string; // 👈 added authors
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -16,6 +17,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   link,
+  authors,
 }) => {
   return (
     <Column fillWidth gap="m">
@@ -41,11 +43,19 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             {title}
           </Heading>
         )}
+
         {description?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
             {description}
           </Text>
         )}
+
+        {authors?.trim() && (
+          <Text wrap="balance" variant="body-default-s" onBackground="neutral-strong">
+            <strong>Authors:</strong> {authors}
+          </Text>
+        )}
+
         {link && (
           <SmartLink
             suffixIcon="arrowUpRightFromSquare"
