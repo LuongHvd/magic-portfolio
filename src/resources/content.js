@@ -57,14 +57,14 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Struggling means you are learning</>,
   featured: {
-    display: true,
-    title: <></>,
+    display: false,
+    title: <>Luong Ho</>,
     href: "",
   },
   subline: (
@@ -78,7 +78,7 @@ const about = {
   path: "/about",
   label: "About",
   title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Meet ${person.name}, ${person.role} from ${person.locationreal}`,
   tableOfContent: {
     display: true,
     subItems: false,
