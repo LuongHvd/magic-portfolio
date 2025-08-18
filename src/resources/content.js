@@ -118,6 +118,7 @@ const about = {
         role: "Research Assistant & Researcher",
         achievements: [
           <>Optimization algorithms theory and applications.</>,
+          <>My instructor: <a href="https://users.soict.hust.edu.vn/binhht"> Assoc. Prof. Huynh Thi Thanh Binh</a></>
         ],
         images: [],
       },
@@ -127,6 +128,7 @@ const about = {
         role: "Research Assistant & Researcher",
         achievements: [
           <>Algorithms for resource management in beyond-5G communication systems.</>,
+          <>My instructor: <a href="https://sites.google.com/site/chientrinhvn/home"> Dr. Trinh Van Chien</a></>
         ],
         images: [],
       },
@@ -138,7 +140,8 @@ const about = {
     institutions: [
       {
         name: "Hanoi University of Science and Technology",
-        description: <>Master of Data Science (Elitech Program), 2024 – Present.</>,
+        description: <>Master of Data Science (Elitech Program), 2024 – Present. <br /> I am currently supported by the Master, PhD Scholarship Programme
+of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       },
       {
         name: "Hanoi University of Science and Technology",
@@ -202,45 +205,61 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/SVNCKH.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/DamCuoiThayChien.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/BPAThanksParty.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/MomGrandma.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/twochildren.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/KienGraduation.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/graduation.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/VinhandMsLanThanh.jpg",
       alt: "image",
       orientation: "vertical",
     },
+    {
+      src: "/images/gallery/Taxua.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/ChauinSonLa.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Champion.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    
   ],
 };
 
