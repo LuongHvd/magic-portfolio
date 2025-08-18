@@ -16,11 +16,14 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Donate to {person.lastName}'s Work</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      If you appreciate my work and want to support my research, consider donating.
+      <br />
+      Your contributions will help me continue my research and share my findings with the community.  
+      <br />
+      Through Internet banking at BIDV, account number 0853788995.
     </>
   ),
 };
