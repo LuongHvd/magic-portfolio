@@ -218,6 +218,11 @@ const gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/sinno.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/BPAThanksParty.jpg",
       alt: "image",
       orientation: "horizontal",
