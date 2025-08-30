@@ -218,6 +218,11 @@ const gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/asiaccs1.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/sinno.jpg",
       alt: "image",
       orientation: "horizontal",
@@ -248,12 +253,22 @@ const gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/nhoque.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/VinhandMsLanThanh.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
       src: "/images/gallery/Taxua.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/cupPhan.JPG",
       alt: "image",
       orientation: "horizontal",
     },
