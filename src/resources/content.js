@@ -218,7 +218,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/sinno23.png",
+      src: "/images/gallery/sinno-bd23.png",
       alt: "image",
       orientation: "horizontal",
     },
