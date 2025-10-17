@@ -223,6 +223,11 @@ const gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/haidilao.PNG",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/asiaccs1.png",
       alt: "image",
       orientation: "horizontal",
