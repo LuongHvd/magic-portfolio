@@ -116,12 +116,12 @@ const about = {
         images: [],
       },
       {
-        company: "Computational Intelligence and Optimization Lab, SoICT, HUST",
+        company: "Computational Intelligence and Optimization Lab, International Research Center on Artificial Intelligence (BKAI), SoICT, HUST",
         timeframe: "2022 – Present",
         role: "Research Assistant & Researcher",
         achievements: [
           <>Optimization algorithms theory and applications.</>,
-          <>My instructor: <a href="https://users.soict.hust.edu.vn/binhht"> Assoc. Prof. Huynh Thi Thanh Binh</a></>
+          <>My instructor: <a href="https://users.soict.hust.edu.vn/binhht"> Prof. Huynh Thi Thanh Binh</a></>
         ],
         images: [],
       },
