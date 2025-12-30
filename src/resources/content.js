@@ -174,6 +174,18 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         images: [],
       },
       {
+        title: "C/C++ Programming Techniqua",
+        description: <>Introduction to programming techniques in C/C++ languages.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "Database Lab",
+        description: <>Pratice with relational DBMS.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
         title: "Introduction to Programming",
         description: <>Introduction to programming concepts, including variables, control structures, and basic algorithms.</>,
         // optional: leave the array empty if you don't want to display images
