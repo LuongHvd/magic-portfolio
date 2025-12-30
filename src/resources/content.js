@@ -220,9 +220,34 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/SVNCKH.jpg",
+      src: "/images/gallery/30soict-hopxuong.JPEG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/Professor2025.PNG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/camranh2025.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/soict2025.JPEG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/SVNCKH2025.jpg",
       alt: "image",
       orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/30soictprofBinh.JPEG",
+      alt: "image",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/DamCuoiThayChien.jpg",
