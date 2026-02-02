@@ -174,6 +174,12 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         images: [],
       },
       {
+        title: "Discrete Math",
+        description: <>Introduction to discrete mathematical structures and reasoning, including logic, sets, relations, functions, combinatorics, graph theory, and proof techniques.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
         title: "C/C++ Programming Technique",
         description: <>Introduction to programming techniques in C/C++ languages.</>,
         // optional: leave the array empty if you don't want to display images
