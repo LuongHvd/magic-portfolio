@@ -14,19 +14,67 @@ const person = {
   languages: ["English", "Vietnamese"], // optional: Leave the array empty if you don't want to display languages
 };
 
+// const newsletter = {
+//   display: true,
+//   title: <>Donate to {person.lastName}'s Work</>,
+//   description: (
+//     <>
+//       If you appreciate my work and want to support my research, consider donating.
+//       <br />
+//       Your contributions will help me continue my research and share my findings with the community.  
+//       <br />
+//       Through Internet banking at BIDV, account number 0853788995.
+//     </>
+//   ),
+// };
 const newsletter = {
   display: true,
-  title: <>Donate to {person.lastName}'s Work</>,
+  title: <>Donate to {person.lastName}&apos;s Work</>,
   description: (
     <>
-      If you appreciate my work and want to support my research, consider donating.
-      <br />
-      Your contributions will help me continue my research and share my findings with the community.  
-      <br />
-      Through Internet banking at BIDV, account number 0853788995.
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 28,
+          flexWrap: "wrap",          // mobile sẽ tự xuống hàng
+          marginTop: 8,
+        }}
+      >
+        {/* Left: text */}
+        <div style={{ maxWidth: 560, textAlign: "center" }}>
+          If you appreciate my work and want to support my research, consider donating.
+          Your contributions will help me continue my research and share my findings with the
+          community.
+          <br />
+          Through Internet banking at BIDV, account number 0853788995.
+        </div>
+
+        {/* Right: bigger QR */}
+        <div style={{ flex: "0 0 auto" }}>
+          <img
+            src="/images/gallery/bidv-qr.jpg"
+            alt="BIDV donation QR"
+            width={240}
+            height={240}
+            style={{
+              width: 240,
+              height: 240,
+              objectFit: "cover",
+              borderRadius: 16,
+              border: "1px solid rgba(0,0,0,0.08)",
+              boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
+              background: "white",
+            }}
+          />
+        </div>
+      </div>
     </>
   ),
 };
+
+
 
 const social = [
   // Links are automatically displayed.
@@ -241,12 +289,7 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/meatSGP2026.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/RedteamingSGP2026.jpg",
+      src: "/images/gallery/metaSGP2026.jpg",
       alt: "image",
       orientation: "vertical",
     },
