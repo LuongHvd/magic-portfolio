@@ -226,9 +226,39 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
+      src: "/images/gallery/marinabay2025.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/Meta2026.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/30soict-hopxuong.JPEG",
       alt: "image",
       orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/meatSGP2026.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/RedteamingSGP2026.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/ChangiCrown2026.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/MarinaBay2026.jpg",
+      alt: "image",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/Professor2025.PNG",
