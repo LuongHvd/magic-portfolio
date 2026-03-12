@@ -4,7 +4,7 @@ const person = {
   firstName: "Ho Viet",
   lastName: "Duc Luong",
   get name() {
-    return `${this.firstName} ${this.lastName}`;
+    return `${this.firstName} ${this.lastName}, MSc.`;
   },
   role: "Computer Science Lecturer, Researcher",
   avatar: "/images/avatar.png",
@@ -191,7 +191,7 @@ const about = {
     institutions: [
       {
         name: "Hanoi University of Science and Technology",
-        description: <>Master of Data Science (Elitech Program), 2024 – Present. <br /> I am currently supported by the Master, PhD Scholarship Programme
+        description: <>Master of Data Science (Elitech Program), 2024 – 2026. <br /> Supported by the Master, PhD Scholarship Programme
 of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       },
       {
