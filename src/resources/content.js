@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Computer Science Lecturer, Researcher",
+  role: "Computer Science Lecturer, Researcher, MSc.",
   avatar: "/images/avatar.png",
   email: "luonghvd@soict.hust.edu.vn",
   location: "Asia/Ho_Chi_Minh", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -45,7 +45,6 @@ const newsletter = {
         {/* Left: text */}
         <div style={{ maxWidth: 560, textAlign: "center" }}>
           If you appreciate my work and want to support my research, consider donating.
-          <br />
           Your contributions will help me continue my research and share my findings with the
           community.
           <br />
