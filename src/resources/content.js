@@ -274,6 +274,11 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
+      src: "/images/gallery/Gecco26deadline.JPEG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/marinabay2025.jpg",
       alt: "image",
       orientation: "vertical",
@@ -282,11 +287,6 @@ const gallery = {
       src: "/images/gallery/Meta2026.jpg",
       alt: "image",
       orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/gecco26deadline.JPEG",
-      alt: "image",
-      orientation: "horizontal",
     },
     {
       src: "/images/gallery/30soict-hopxuong.JPEG",
