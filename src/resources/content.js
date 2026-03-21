@@ -284,6 +284,11 @@ const gallery = {
       orientation: "vertical",
     },
     {
+      src: "/images/gallery/gecco26deadline.JPEG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/30soict-hopxuong.JPEG",
       alt: "image",
       orientation: "horizontal",
