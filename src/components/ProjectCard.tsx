@@ -52,7 +52,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
         {authors?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
-            <strong>Authors:</strong> {authors}
+            <strong>Authors:</strong> {/* {authors} */}
           </Text>
         )}
 
