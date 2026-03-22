@@ -50,12 +50,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </Text>
         )}
 
-        {authors?.trim() && (
-          <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
-            <strong>Authors:</strong> {/* {authors} */}
-          </Text>
-        )}
-
         {link && (
           <SmartLink
             suffixIcon="arrowUpRightFromSquare"
