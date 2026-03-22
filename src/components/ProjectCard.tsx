@@ -14,10 +14,10 @@ interface ProjectCardProps {
 const renderAuthors = (authors: string) =>
   authors.split(",").map((a, i, arr) => {
     const trimmed = a.trim();
-    const isBold = trimmed.startsWith("<b>") && trimmed.endsWith("</b>");
+    const isBold = trimmed.startsWith("b") && trimmed.endsWith("b");
 
     const content = isBold
-      ? <strong>{trimmed.slice(3, -4)}</strong>
+      ? <strong>{trimmed.slice(0, 0)}</strong>
       : <span>{trimmed}</span>;
 
     return (
