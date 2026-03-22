@@ -18,7 +18,7 @@ type Metadata = {
   tag?: string;
   team: Team[];
   link?: string;
-  authors?: string;
+  authors: string;
 };
 
 import { notFound } from 'next/navigation';
