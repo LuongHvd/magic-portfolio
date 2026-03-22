@@ -11,23 +11,6 @@ interface ProjectCardProps {
   authors?: string; // 👈 added authors
 }
 
-const renderAuthors = (authors: string) =>
-  authors.split(",").map((a, i, arr) => {
-    const trimmed = a.trim();
-    const isBold = trimmed.startsWith("b") && trimmed.endsWith("b");
-
-    const content = isBold
-      ? <strong>{trimmed.slice(0, 0)}</strong>
-      : <span>{trimmed}</span>;
-
-    return (
-      <span key={i}>
-        {content}
-        {i < arr.length - 1 && ", "}
-      </span>
-    );
-  });
-
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   href,
   images = [],
@@ -69,7 +52,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
         {authors?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
-            <strong>Authors:</strong> {renderAuthors(authors)}
+            <strong>Authors:</strong> {authors}
           </Text>
         )}
 
