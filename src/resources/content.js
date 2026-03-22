@@ -29,7 +29,7 @@ const person = {
 // };
 const newsletter = {
   display: true,
-  title: <>Donate to {person.lastName}&apos;s Work</>,
+  title: <>Donate to {person.lastName} s Work</>,
   description: (
     <>
       <div
