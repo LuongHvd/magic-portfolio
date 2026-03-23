@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Computer Science Lecturer, Researcher, MSc.",
+  role: "Computer Science Lecturer, Researcher",
   avatar: "/images/avatar.png",
   email: "luonghvd@soict.hust.edu.vn",
   location: "Asia/Ho_Chi_Minh", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -29,7 +29,7 @@ const person = {
 // };
 const newsletter = {
   display: true,
-  title: <>Donate to {person.lastName} s Work</>,
+  title: <>Donate to {person.lastName}&apos;s Work</>,
   description: (
     <>
       <div
@@ -110,7 +110,7 @@ const home = {
   path: "/",
   image: "/images/og/home.png",
   label: "Home",
-  title: `${person.name}’s Portfolio`,
+  title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Struggling means you are learning</>,
   featured: {
@@ -273,11 +273,6 @@ const gallery = {
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
-    {
-      src: "/images/gallery/Gecco26deadline.JPEG",
-      alt: "image",
-      orientation: "horizontal",
-    },
     {
       src: "/images/gallery/marinabay2025.jpg",
       alt: "image",
