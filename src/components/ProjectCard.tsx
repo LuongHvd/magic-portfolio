@@ -14,7 +14,7 @@ interface ProjectCardProps {
 const render = (authors: string) =>
   authors.split(",").map((a, i, arr) => {
     const name = a.trim();
-    const isHighlight = name === "Ho Viet Duc Luong";
+    const isHighlight = (name === "Ho Viet Duc Luong") || (name == "Duc-Luong Ho-Viet");
 
     return (
       <span key={i}>
