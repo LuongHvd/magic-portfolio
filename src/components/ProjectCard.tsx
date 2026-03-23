@@ -8,7 +8,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   link?: string;
-  authors: string; // 👈 added authors
+  authors?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -50,7 +50,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </Text>
         )}
         
-
         {authors?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
             <strong>Authors:</strong> {authors}
