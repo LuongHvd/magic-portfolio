@@ -11,6 +11,19 @@ interface ProjectCardProps {
   authors?: string;
 }
 
+const render = (authors: string) =>
+  authors.split(",").map((a, i, arr) => {
+    const name = a.trim();
+    const isHighlight = name === "Ho Viet Duc Luong";
+
+    return (
+      <span key={i}>
+        {isHighlight ? <strong>{name}</strong> : name}
+        {i < arr.length - 1 && ", "}
+      </span>
+    );
+  });
+
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   href,
   images = [],
@@ -52,7 +65,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         
         {authors?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
-            <strong>Authors:</strong> {authors}
+            <strong>Authors:</strong> {render(authors)}
           </Text>
         )}
 
