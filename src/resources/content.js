@@ -191,7 +191,7 @@ const about = {
     institutions: [
       {
         name: "Hanoi University of Science and Technology",
-        description: <>Master of Data Science (Elitech Program), 2024 – Present. <br /> I am currently supported by the Master, PhD Scholarship Programme
+        description: <>Master of Data Science (Elitech Program), 2024 – 2026. <br /> I was supported by the Master, PhD Scholarship Programme
 of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       },
       {
