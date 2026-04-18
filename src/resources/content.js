@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Computer Science Lecturer, Researcher, MSc.",
-  avatar: "/images/avatar.png",
+  avatar: "/images/avatar2.jpeg",
   email: "luonghvd@soict.hust.edu.vn",
   location: "Asia/Ho_Chi_Minh", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   locationreal: "Hanoi, Vietnam",     // For internal time functions
