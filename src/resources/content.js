@@ -139,7 +139,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "mailto:luonghvd@soict.hust.edu.vn",
   },
   intro: {
     display: true,
