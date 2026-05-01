@@ -18,6 +18,7 @@ type Metadata = {
   tag?: string;
   team: Team[];
   link?: string;
+  bibtex?: string;
   authors: string;
 };
 
@@ -48,6 +49,7 @@ function readMDXFile(filePath: string) {
     tag: data.tag || [],
     team: data.team || [],
     link: data.link || "",
+    bibtex: data.bibtex || "",
     authors: data.authors || "",
   };
 
