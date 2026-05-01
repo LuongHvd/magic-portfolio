@@ -30,6 +30,7 @@ export function Projects({ range }: ProjectsProps) {
           authors={post.metadata.authors}
           // avatars={post.metadata.team?.map((member) => ({ src: member.avatar })) || []}
           link={post.metadata.link || ""}
+          bibtex={post.metadata.bibtex || `/api/bib/${post.slug}`}
         />
       ))}
     </Column>

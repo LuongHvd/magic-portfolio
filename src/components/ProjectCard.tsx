@@ -8,6 +8,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   link?: string;
+  bibtex?: string;
   authors?: string;
 }
 
@@ -30,6 +31,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   link,
+  bibtex,
   authors,
 }) => {
   return (
@@ -69,14 +71,29 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </Text>
         )}
 
-        {link && (
-          <SmartLink
-            suffixIcon="arrowUpRightFromSquare"
-            style={{ margin: "0", width: "fit-content" }}
-            href={link}
-          >
-            <Text variant="body-default-s">View</Text>
-          </SmartLink>
+        {(link || bibtex) && (
+          <Flex gap="16" wrap>
+            {link && (
+              <SmartLink
+                suffixIcon="arrowUpRightFromSquare"
+                style={{ margin: "0", width: "fit-content" }}
+                href={link}
+              >
+                <Text variant="body-default-s">View</Text>
+              </SmartLink>
+            )}
+            {bibtex && (
+              <SmartLink
+                suffixIcon="document"
+                style={{ margin: "0", width: "fit-content" }}
+                href={bibtex}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Text variant="body-default-s">BibTeX</Text>
+              </SmartLink>
+            )}
+          </Flex>
         )}
       </Flex>
     </Column>
