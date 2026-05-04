@@ -180,9 +180,25 @@ export default function About() {
           </Column>
 
           {about.intro.display && (
-            <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="xl">
+            <Column textVariant="body-default-l" fillWidth gap="m" marginBottom="m">
               {about.intro.description}
             </Column>
+          )}
+
+          {about.researchInterests.display && (
+            <Flex fillWidth gap="8" wrap marginBottom="40" data-border="rounded">
+              {about.researchInterests.topics.map((topic) => (
+                <Button
+                  key={topic}
+                  label={topic}
+                  size="s"
+                  weight="default"
+                  variant="secondary"
+                  aria-disabled="true"
+                  style={{ pointerEvents: "none", cursor: "default" }}
+                />
+              ))}
+            </Flex>
           )}
 
           {about.work.display && (

@@ -29,7 +29,7 @@ const person = {
 // };
 const newsletter = {
   display: true,
-  title: <>Donate to {person.lastName} s Work</>,
+  title: <>Donate to {person.lastName}'s Work</>,
   description: (
     <>
       <div
@@ -149,6 +149,18 @@ const about = {
       Ho Viet Duc Luong is a junior lecturer who graduated with an excellent MSc. degree (CPA: 4.0/4.0) in Data Science at SoICT, HUST. He received the BPA in the Thesis Defense Committee Optimization 2024 at SoICT, the Second Prize in VMO 2020, and a Gold Medal in the National Mathematical Olympiad for Students 2018. His research interests include evolutionary computation and AI applications in optimization for wireless communications and autonomous systems.
         </>
     ),
+  },
+  researchInterests: {
+    display: true,
+    title: "Research Interests",
+    topics: [
+      "Artificial Intelligence",
+      "Optimization",
+      "Evolutionary Computation",
+      "Wireless Communications",
+      "Health Informatics",
+      "Applied Agentic AI",
+    ],
   },
   work: {
     display: true,
