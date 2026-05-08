@@ -49,6 +49,11 @@ export default function About() {
       display: about.technical.display,
       items: about.technical.skills.map((skill) => skill.title),
     },
+    {
+      title: about.students.title,
+      display: about.students.display,
+      items: about.students.people.map((student) => student.name),
+    },
   ];
   return (
     <Column maxWidth="m">
@@ -293,7 +298,7 @@ export default function About() {
               >
                 {about.technical.title}
               </Heading>
-              <Column fillWidth gap="l">
+              <Column fillWidth gap="l" marginBottom="40">
                 {about.technical.skills.map((skill, index) => (
                   <Column key={`${skill}-${index}`} fillWidth gap="4">
                     <Text id={skill.title} variant="heading-strong-l">{skill.title}</Text>
@@ -327,6 +332,37 @@ export default function About() {
                       </Flex>
                     )}
                   </Column>
+                ))}
+              </Column>
+            </>
+          )}
+
+          {about.students.display && about.students.people.length > 0 && (
+            <>
+              <Heading
+                as="h2"
+                id={about.students.title}
+                variant="display-strong-s"
+                marginBottom="m"
+              >
+                {about.students.title}
+              </Heading>
+              <Column fillWidth gap="12" marginBottom="40">
+                {about.students.people.map((student) => (
+                  <Flex
+                    key={student.name}
+                    fillWidth
+                    border="neutral-medium"
+                    radius="m"
+                    padding="16"
+                    gap="16"
+                    vertical="center"
+                  >
+                    <Avatar src={student.avatar} size="xl" />
+                    <Text id={student.name} variant="heading-strong-l">
+                      {student.name}
+                    </Text>
+                  </Flex>
                 ))}
               </Column>
             </>

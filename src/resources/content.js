@@ -259,6 +259,20 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       },
     ],
   },
+  students: {
+    display: true,
+    title: "My Students",
+    people: [
+      {
+        name: "Lang Hong Nguyet Anh",
+        avatar: "/images/students/LangHongNguyetAnh.jpg",
+      },
+      {
+        name: "Tran Le Dung",
+        avatar: "/images/students/TranLeDung.png",
+      },
+    ],
+  },
 };
 
 const blog = {
