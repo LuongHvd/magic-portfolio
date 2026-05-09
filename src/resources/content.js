@@ -266,10 +266,17 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       {
         name: "Lang Hong Nguyet Anh",
         avatar: "/images/students/LangHongNguyetAnh.jpg",
+        description: <>Research member working on AI-powered optimization and applied evolutionary computation.</>,
       },
       {
         name: "Tran Le Dung",
         avatar: "/images/students/TranLeDung.png",
+        description: <>Research member interested in optimization algorithms and computational intelligence applications.</>,
+      },
+      {
+        name: "Pham Cong Hoang",
+        avatar: "/images/students/PhamCongHoang.png",
+        description: <>Research member</>,
       },
     ],
   },

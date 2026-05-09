@@ -359,9 +359,16 @@ export default function About() {
                     vertical="center"
                   >
                     <Avatar src={student.avatar} size="xl" />
-                    <Text id={student.name} variant="heading-strong-l">
-                      {student.name}
-                    </Text>
+                    <Column gap="4">
+                      <Text id={student.name} variant="heading-strong-l">
+                        {student.name}
+                      </Text>
+                      {student.description && (
+                        <Text variant="body-default-m" onBackground="neutral-weak">
+                          {student.description}
+                        </Text>
+                      )}
+                    </Column>
                   </Flex>
                 ))}
               </Column>
