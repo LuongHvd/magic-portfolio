@@ -279,6 +279,11 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         description: <>Research member</>,
       },
       {
+        name: "Nguyen Tran Minh Nhat",
+        avatar: "/images/students/NguyenTranMinhNhat.jpg",
+        description: <>Research member</>,
+      },
+      {
         name: "Pham Cong Hoang",
         avatar: "/images/students/PhamCongHoang.png",
         description: <>Research member</>,
