@@ -274,6 +274,11 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         description: <>Research member interested in optimization algorithms and computational intelligence applications.</>,
       },
       {
+        name: "Vu Van An",
+        avatar: "/images/students/VuVanAn.jpeg",
+        description: <>Research member</>,
+      },
+      {
         name: "Pham Cong Hoang",
         avatar: "/images/students/PhamCongHoang.png",
         description: <>Research member</>,

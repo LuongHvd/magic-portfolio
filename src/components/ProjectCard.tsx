@@ -12,17 +12,11 @@ interface ProjectCardProps {
   authors?: string;
 }
 
-const render = (authors: string) =>
-  authors.split(",").map((a, i, arr) => {
-    const name = a.trim();
-    const isHighlight = (name === "Ho Viet Duc Luong") || (name == "Duc-Luong Ho-Viet");
+const highlightAuthors = (authors: string) =>
+  authors.split(/(Ho Viet Duc Luong|Duc-Luong Ho-Viet)/g).map((part, index) => {
+    const isHighlight = part === "Ho Viet Duc Luong" || part === "Duc-Luong Ho-Viet";
 
-    return (
-      <span key={i}>
-        {isHighlight ? <strong>{name}</strong> : name}
-        {i < arr.length - 1 && ", "}
-      </span>
-    );
+    return isHighlight ? <strong key={index}>{part}</strong> : <span key={index}>{part}</span>;
   });
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -67,7 +61,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         
         {authors?.trim() && (
           <Text wrap="balance" variant="body-default-s" onBackground="neutral-weak">
-            <strong>Authors:</strong> {render(authors)}
+            <strong>Authors:</strong> {highlightAuthors(authors)}
           </Text>
         )}
 
