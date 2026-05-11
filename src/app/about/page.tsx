@@ -14,6 +14,7 @@ import {
 } from "@once-ui-system/core";
 import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
+import ProtectedPeopleSection from "@/components/about/ProtectedPeopleSection";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
 
@@ -53,6 +54,11 @@ export default function About() {
       title: about.students.title,
       display: about.students.display,
       items: about.students.people.map((student) => student.name),
+    },
+    {
+      title: about.enemies.title,
+      display: about.enemies.display,
+      items: [],
     },
   ];
   return (
@@ -373,6 +379,13 @@ export default function About() {
                 ))}
               </Column>
             </>
+          )}
+
+          {about.enemies.display && (
+            <ProtectedPeopleSection
+              title={about.enemies.title}
+              endpoint="/api/enemies"
+            />
           )}
         </Column>
       </Flex>
