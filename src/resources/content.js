@@ -293,7 +293,6 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
   enemies: {
     display: true,
     title: "My Hates",
-    password: "081002",
     people: [
       {
         name: "Tran Anh Quoc",
