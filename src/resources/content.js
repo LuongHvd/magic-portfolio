@@ -328,6 +328,21 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
+      src: "/images/gallery/Hoitotnghiep.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/CIOtotnghiep.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/svnckh26.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery/Gecco26deadline.JPEG",
       alt: "image",
       orientation: "horizontal",
