@@ -290,17 +290,6 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       },
     ],
   },
-  enemies: {
-    display: true,
-    title: "My Hates",
-    people: [
-      {
-        name: "Tran Anh Quoc",
-        avatar: "",
-        description: "He beats me, twice, such a coward bully. a**h*le son of a b*tch.",
-      },
-    ],
-  },
 };
 
 const blog = {
