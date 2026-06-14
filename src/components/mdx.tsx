@@ -124,11 +124,11 @@ function createInlineCode({ children }: { children: ReactNode }) {
 
 function createCodeBlock(props: any) {
   // For pre tags that contain code blocks
-  if (props.children && props.children.props && props.children.props.className) {
+  if (props.children && props.children.props) {
     const { className, children } = props.children.props;
     
     // Extract language from className (format: language-xxx)
-    const language = className.replace('language-', '');
+    const language = className ? className.replace('language-', '') : "text";
     const label = language.charAt(0).toUpperCase() + language.slice(1);
     
     return (
