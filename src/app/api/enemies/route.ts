@@ -8,6 +8,12 @@ const HASH_ITERATIONS = 310000;
 const HASH_LENGTH = 32;
 const HASH_DIGEST = "sha256";
 
+type ProtectedPerson = {
+  name: string;
+  avatar: string;
+  description?: string;
+};
+
 function getPasswordConfig() {
   const salt = process.env.ENEMIES_PASSWORD_SALT;
   const hash = process.env.ENEMIES_PASSWORD_HASH;
@@ -53,8 +59,10 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Incorrect password" }, { status: 401 });
   }
 
+  const people = about.enemies.people as ProtectedPerson[];
+
   return NextResponse.json({
-    people: about.enemies.people.map((person) => ({
+    people: people.map((person) => ({
       name: person.name,
       avatar: person.avatar,
       description: person.description,

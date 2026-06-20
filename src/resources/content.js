@@ -29,7 +29,7 @@ const person = {
 // };
 const newsletter = {
   display: true,
-  title: <>Donate to {person.lastName}'s Work</>,
+  title: <>Donate to {person.lastName}&apos;s Work</>,
   description: (
     <>
       <div
@@ -120,7 +120,7 @@ const home = {
   },
   subline: (
     <>
-      I'm {person.name}, currently a Junior Lecturer at SoICT, HUST, focusing on AI-powered optimization.
+      I&apos;m {person.name}, currently a Junior Lecturer at SoICT, HUST, focusing on AI-powered optimization.
     </>
   ),
 };
@@ -266,7 +266,7 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       {
         name: "Lang Hong Nguyet Anh",
         avatar: "/images/students/LangHongNguyetAnh.jpg",
-        description: <>ICT K68. Best Paper Award Nomination at GECCO 2026. President of the SoICT Students' Association </>,
+        description: <>ICT K68. Best Paper Award Nomination at GECCO 2026. President of the SoICT Students&apos; Association </>,
       },
       {
         name: "Tran Le Dung",
@@ -289,6 +289,11 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         description: <>DSAI K69. Prompter.</>,
       },
     ],
+  },
+  enemies: {
+    display: false,
+    title: "Enemies",
+    people: [],
   },
 };
 
