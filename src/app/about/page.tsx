@@ -182,6 +182,40 @@ export default function About() {
                 )}
               </Flex>
             )}
+            {about.metrics.display && (
+              <Flex
+                className={`${styles.metricsGrid} ${styles.blockAlign}`}
+                fillWidth
+                paddingTop="24"
+                gap="20"
+                wrap
+                horizontal="center"
+              >
+                {about.metrics.items.map((metric) => (
+                  <Column
+                    key={metric.label}
+                    className={styles.metricItem}
+                    gap="8"
+                    horizontal="center"
+                  >
+                    <Flex
+                      className={styles.metricValue}
+                      horizontal="center"
+                      vertical="center"
+                    >
+                      {metric.value}
+                    </Flex>
+                    <Text
+                      className={styles.metricLabel}
+                      variant="label-default-s"
+                      onBackground="neutral-weak"
+                    >
+                      {metric.label}
+                    </Text>
+                  </Column>
+                ))}
+              </Flex>
+            )}
           </Column>
 
           {about.intro.display && (

@@ -141,6 +141,31 @@ const about = {
     display: true,
     link: "mailto:luonghvd@soict.hust.edu.vn",
   },
+  metrics: {
+    display: true,
+    items: [
+      {
+        value: "109",
+        label: "Citations",
+      },
+      {
+        value: "6",
+        label: "h-index",
+      },
+      {
+        value: "20",
+        label: "Publications",
+      },
+      {
+        value: "30+",
+        label: "Research mentees",
+      },
+      {
+        value: "5",
+        label: "Books",
+      },
+    ],
+  },
   intro: {
     display: true,
     title: "Introduction",
