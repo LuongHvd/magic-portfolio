@@ -149,7 +149,7 @@ const about = {
         label: "Citations",
       },
       {
-        value: "6",
+        value: "7",
         label: "h-index",
       },
       {
