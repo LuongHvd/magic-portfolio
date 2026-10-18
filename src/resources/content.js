@@ -145,7 +145,7 @@ const about = {
     display: true,
     items: [
       {
-        value: "151",
+        value: "152",
         label: "Citations",
       },
       {
@@ -276,12 +276,12 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         // optional: leave the array empty if you don't want to display images
         images: [],
       },
-      // {
-      //   title: "Introduction to Programming",
-      //   description: <>Introduction to programming concepts, including variables, control structures, and basic algorithms.</>,
-      //   // optional: leave the array empty if you don't want to display images
-      //   images: [],
-      // },
+      {
+        title: "Introduction to Programming",
+        description: <>Introduction to programming concepts, including variables, control structures, and basic algorithms.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
     ],
   },
   trainingMaterials: {
@@ -290,7 +290,7 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
     items: [
       { title: "Machine Learning", 
         description: <>Introduction to machine learning, covering regression, classification, model evaluation, cross-validation, clustering, dimensionality reduction, and ensemble methods.</>,        link: "https://drive.google.com/file/d/1gviZmBaJyFJBLt9AAZD3Q4i1QWNy2HR_/view?usp=drive_link" },
-      { title: "Deep Learning", 
+      { title: "Deep Learning Foundation", 
         description: <>Introduction to deep learning, covering neural networks, CNNs, sequence models, Transformers, transfer learning, generative models, graph neural networks, and foundation models.</>,
         link: "https://drive.google.com/drive/folders/1TJEqCH0OWDvXYkS1clSRw_R7_zad7kL8?usp=drive_link" },
       { title: "Optimization and Metaheuristics", 
