@@ -50,6 +50,11 @@ export default function About() {
       items: about.technical.skills.map((skill) => skill.title),
     },
     {
+      title: about.trainingMaterials.title,
+      display: about.trainingMaterials.display,
+      items: about.trainingMaterials.items.map((item) => item.title),
+    },
+    {
       title: about.students.title,
       display: about.students.display,
       items: about.students.people.map((student) => student.name),
@@ -365,6 +370,31 @@ export default function About() {
                         ))}
                       </Flex>
                     )}
+                  </Column>
+                ))}
+              </Column>
+            </>
+          )}
+
+          {about.trainingMaterials.display && (
+            <>
+              <Heading
+                as="h2"
+                id={about.trainingMaterials.title}
+                variant="display-strong-s"
+                marginBottom="40"
+              >
+                {about.trainingMaterials.title}
+              </Heading>
+              <Column fillWidth gap="l" marginBottom="40">
+                {about.trainingMaterials.items.map((item) => (
+                  <Column key={item.title} fillWidth gap="4">
+                    <Text id={item.title} variant="heading-strong-l">
+                      {item.link ? <a href={item.link}>{item.title}</a> : item.title}
+                    </Text>
+                    <Text variant="body-default-m" onBackground="neutral-weak">
+                      {item.description}
+                    </Text>
                   </Column>
                 ))}
               </Column>
