@@ -145,7 +145,7 @@ const about = {
     display: true,
     items: [
       {
-        value: "155",
+        value: "156",
         label: "Citations",
       },
       {
@@ -153,7 +153,7 @@ const about = {
         label: "h-index",
       },
       {
-        value: "20+",
+        value: "25+",
         label: "Publications",
       },
       {
