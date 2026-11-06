@@ -145,7 +145,7 @@ const about = {
     display: true,
     items: [
       {
-        value: "157",
+        value: "167",
         label: "Citations",
       },
       {
