@@ -145,11 +145,11 @@ const about = {
     display: true,
     items: [
       {
-        value: "167",
+        value: "175",
         label: "Citations",
       },
       {
-        value: "8",
+        value: "9",
         label: "h-index",
       },
       {
