@@ -104,6 +104,11 @@ const social = [
     icon: "email",
     link: `mailto:${person.email}`,
   },
+  {
+    name: "SoICT, HUST",
+    icon: "home",
+    link: "https://soict.hust.edu.vn/ths-ho-viet-duc-luong.html",
+  },
 ];
 
 const home = {
