@@ -158,7 +158,7 @@ const about = {
         label: "h-index",
       },
       {
-        value: "25+",
+        value: "30+",
         label: "Publications",
       },
       {
