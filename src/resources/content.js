@@ -107,7 +107,7 @@ const social = [
   {
     name: "SoICT, HUST",
     icon: "home",
-    link: "https://soict.hust.edu.vn/ths-ho-viet-duc-luong.html",
+    link: "https://soict.hust.edu.vn/en/m-s-ho-viet-duc-luong.html",
   },
 ];
 
