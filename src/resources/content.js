@@ -150,7 +150,7 @@ const about = {
     display: true,
     items: [
       {
-        value: "176",
+        value: "184",
         label: "Citations",
       },
       {
@@ -321,6 +321,11 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         description: <>IT1 K67. First student I supervise Graduation Project. Best Presentation Award at Optimization Thesis Defense Committee.</>,
       },
       {
+        name: "Pham Cong Hoang",
+        avatar: "/images/students/PhamCongHoang.png",
+        description: <>DSAI K69. Vibe President, 1st author in paper with absolute 4 submitted (hope) at ICLR27..</>,
+      },
+      {
         name: "Vu Van An",
         avatar: "/images/students/VuVanAn.jpeg",
         description: <>IT1 K69. Best Paper Award Nomination at GECCO 2026. Have research at WACV 2027</>,
@@ -329,12 +334,7 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
         name: "Nguyen Tran Minh Nhat",
         avatar: "/images/students/NguyenTranMinhNhat.jpg",
         description: <>ICT K68.</>,
-      },
-      {
-        name: "Pham Cong Hoang",
-        avatar: "/images/students/PhamCongHoang.png",
-        description: <>DSAI K69. Prompter.</>,
-      },
+      }
     ],
   },
   enemies: {
