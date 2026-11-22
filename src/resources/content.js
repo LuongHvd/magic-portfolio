@@ -150,7 +150,7 @@ const about = {
     display: true,
     items: [
       {
-        value: "184",
+        value: "186",
         label: "Citations",
       },
       {
@@ -323,7 +323,7 @@ of Vingroup Innovation Foundation (VINIF), code VINIF.2024.ThS.32. </>,
       {
         name: "Pham Cong Hoang",
         avatar: "/images/students/PhamCongHoang.png",
-        description: <>DSAI K69. Vibe President, 1st author in paper with absolute 4 submitted (hope) at ICLR27..</>,
+        description: <>DSAI K69. Vibe President, 1st author in paper with absolute 4 submitted (hope) at ICLR27.</>,
       },
       {
         name: "Vu Van An",
